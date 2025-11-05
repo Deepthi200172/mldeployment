@@ -44,3 +44,19 @@ mlapp/
 ├── requirements.txt      # Python dependencies
 ├── Dockerfile            # Docker configuration
 └── __pycache__/          # Cache folder (ignored)
+
+## 🐳 Run with Docker
+
+To build, run, and open the app in one go:
+
+```bash
+# 1️⃣ Build the image
+docker build -t mlapp .
+
+# 2️⃣ Run the container
+docker run -p 8501:8501 mlapp
+
+# 3️⃣ Open the app in your browser
+# (Once container starts, visit)
+# 👉 http://localhost:8501
+
