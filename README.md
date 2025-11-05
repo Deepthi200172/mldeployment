@@ -50,16 +50,16 @@ mlapp/
 To build, run, and open the app in one go:
 
 
-# 1️⃣ Build the image
+## 1️⃣ Build the image
 ```bash
 docker build -t mlapp .
 ```
-# 2️⃣ Run the container
+## 2️⃣ Run the container
 ```bash
 docker run -p 8501:8501 mlapp
 ```
 
-# 3️⃣ Open the app in your browser
+## 3️⃣ Open the app in your browser
 ```bash
 # (Once container starts, visit)
 # 👉 http://localhost:8501
